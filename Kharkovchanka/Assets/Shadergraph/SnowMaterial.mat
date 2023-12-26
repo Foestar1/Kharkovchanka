@@ -36,7 +36,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SnowBrightness: 2.06
+    - _SnowBrightness: 1.5
     - _SnowLumps: 0.05
     - _SnowPower: 1.6
     - _SnowScale: 30
