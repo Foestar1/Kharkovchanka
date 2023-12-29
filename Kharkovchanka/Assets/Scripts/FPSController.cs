@@ -25,6 +25,10 @@ public class FPSController : MonoBehaviour
     CharacterController characterController;
     void Start()
     {
+        playerCamera = Camera.main;
+        playerCamera.transform.parent = this.gameObject.transform;
+        playerCamera.transform.localPosition = new Vector3(0, 2, 0);
+        playerCamera.transform.localEulerAngles = new Vector3(0, 2, 0);
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
