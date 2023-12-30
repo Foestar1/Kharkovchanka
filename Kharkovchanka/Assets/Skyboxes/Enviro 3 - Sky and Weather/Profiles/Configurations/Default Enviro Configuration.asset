@@ -127,9 +127,9 @@ MonoBehaviour:
   preset: {fileID: 11400000, guid: 0fcdd472bd6a8ec429fc1e9bc978c4fa, type: 2}
   showCirrusCloudsControls: 0
   show2DCloudsControls: 0
-  cloudFlatBaseAnim: {x: 0.69739187, y: 0.21841997}
-  cloudFlatDetailAnim: {x: -0.55218273, y: -0.7439645}
-  cirrusAnim: {x: -0.65454954, y: -0.8901925}
+  cloudFlatBaseAnim: {x: 0.102668315, y: 0.8119931}
+  cloudFlatDetailAnim: {x: 0.45537055, y: 0.24485849}
+  cirrusAnim: {x: 0.048714835, y: 0.40670985}
 --- !u!114 &-1033463005042072443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1780,7 +1780,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    temperature: -4.9999933
+    temperature: -0.8516941
     temperatureWeatherMod: -10
     temperatureCustomMod: 0
     temperatureChangingSpeed: 0.1
@@ -1998,7 +1998,7 @@ MonoBehaviour:
   showDensityControls: 0
   showTextureControls: 0
   showWindControls: 1
-  cloudAnimLayer1: {x: -0.70513725, y: -0.841892, z: -0.33784094}
+  cloudAnimLayer1: {x: -0.0018728861, y: 0.45535323, z: 0.8574933}
   cloudAnimLayer2: {x: 0.4995961, y: -0.7353438, z: 0.82806736}
   cloudAnimNonScaledLayer1: {x: 0.99872607, y: -0.9660904, z: -13.657647}
   cloudAnimNonScaledLayer2: {x: -0.71681553, y: 0.68417805, z: -14.015859}
@@ -2036,8 +2036,8 @@ MonoBehaviour:
     defaultSkyReflectionTex: {fileID: 0}
   preset: {fileID: 11400000, guid: da668770e38694d49af97ecfd05fd7eb, type: 2}
   showReflectionControls: 1
-  lastReflectionUpdate: 0.025
-  lastReflectionUpdatePos: {x: 326.31842, y: 10.53, z: 180.70834}
+  lastReflectionUpdate: 15.025
+  lastReflectionUpdatePos: {x: 0, y: 8.59, z: -10}
 --- !u!114 &4011421771873438716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2123,11 +2123,11 @@ MonoBehaviour:
     simulate: 1
     secSerial: 0
     minSerial: 0
-    hourSerial: 0
+    hourSerial: 15
     daySerial: 26
     monthSerial: 8
     yearSerial: 2023
-    timeOfDay: 0
+    timeOfDay: 15
     latitude: 0
     longitude: 0
     utcOffset: 0
@@ -2137,7 +2137,7 @@ MonoBehaviour:
   preset: {fileID: 11400000, guid: 82acdd278499d74498ad37dd931734d1, type: 2}
   showTimeControls: 1
   showLocationControls: 0
-  LST: 333.9947
+  LST: 199.61096
 --- !u!114 &5286980405202375680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2243,6 +2243,11 @@ MonoBehaviour:
   showFogControls: 1
   showVolumetricsControls: 0
   fogLights:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
