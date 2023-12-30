@@ -1,24 +1,45 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9128666417399123183
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BallSnow04
-  m_Shader: {fileID: 4800000, guid: e52bb9af1fde8f84e978e6e27e785bf8, type: 3}
-  m_ShaderKeywords: IS_ICE USE_AL USE_LS _TESSELLATION_EDGE
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_ValidKeywords:
+  - _DETAIL_MULX2
+  - _NORMALMAP
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 2dce8b3063cfa3741bd160b1d53e6ea1, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -33,6 +54,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _CrackLayers:
         m_Texture: {fileID: 2800000, guid: 9d2bc4563c4469046b3894dadfed737e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CustomTerrainHolesTexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -80,8 +105,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 95cda4851763fbe45bad72a119cb999d, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask0:
         m_Texture: {fileID: 0}
@@ -227,10 +252,29 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AddSnowStrength: 0.5
+    - _AlphaClip: 0
+    - _Blend: 0
     - _BumpScale: 3.44
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
     - _Cutoff: 0.361
+    - _DetailAlbedoMapScale: 1
     - _DetailBumpScale: 3.07
     - _DetailNormalMapScale: 1
     - _DisplacementColorMult: 1
@@ -240,6 +284,7 @@ Material:
     - _DstBlend: 0
     - _EffectDisplacementStrength: 0.5
     - _Emission: 0.25
+    - _EnvironmentReflections: 1
     - _FishAngle: 0
     - _FishIntensity: 1.7
     - _FishMaskIntensity: 0.25
@@ -255,7 +300,9 @@ Material:
     - _HeightScale: 1
     - _ISADD: 0
     - _ISICE: 1
+    - _ISSNOW: 0
     - _IST: 0
+    - _ISUNLIT: 0
     - _IceScale: 1
     - _IndentDepth: 0.21
     - _IndentStrength: 1.18
@@ -293,6 +340,10 @@ Material:
     - _ParalaxColorScale: -0.88
     - _Parallax: 0.02
     - _ParallaxStrength: 0
+    - _ProceduralDistance: 5.5
+    - _ProceduralStrength: 1.5
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _ReflectionOpacity: 0.25
     - _ReflectionStrength: 0.58
     - _RemoveSnowStrength: 0.5
@@ -309,26 +360,33 @@ Material:
     - _Specular: -7.29
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Surface: 0
     - _Tess: 6.7
     - _TessellationEdgeLength: 50
     - _TessellationUniform: 2.5
     - _TransitionPower: 0.75
     - _TransitionScale: 0.65
     - _TransparencyValue: 1
+    - _USEFOG: 1
     - _USEINTER: 0
+    - _USELOW: 0
     - _USERT: 0
     - _USEWC: 0
+    - _USEWT: 0
     - _UVSec: 0
     - _UpVector: 0
     - _UseAmbientLight: 1
+    - _UsePR: 0
     - _UseSunReflection: 1
     - _UseVR: 0
     - _WireframeSmoothing: 1
     - _WireframeThickness: 1
+    - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BotColor: {r: 0.744129, g: 0.88841856, b: 0.929, a: 1}
-    - _Color: {r: 0.851, g: 0.9461063, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CracksStrength: {r: -1.04, g: 0.125, b: 0.2, a: -0.33}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -358,3 +416,4 @@ Material:
     - _TopColor: {r: 1, g: 1, b: 1, a: 1}
     - _TransitionColor: {r: 1, g: 1, b: 1, a: 1}
     - _WireframeColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
