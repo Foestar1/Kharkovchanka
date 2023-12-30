@@ -127,9 +127,9 @@ MonoBehaviour:
   preset: {fileID: 11400000, guid: 0fcdd472bd6a8ec429fc1e9bc978c4fa, type: 2}
   showCirrusCloudsControls: 0
   show2DCloudsControls: 0
-  cloudFlatBaseAnim: {x: 0.102668315, y: 0.8119931}
-  cloudFlatDetailAnim: {x: 0.45537055, y: 0.24485849}
-  cirrusAnim: {x: 0.048714835, y: 0.40670985}
+  cloudFlatBaseAnim: {x: -0.058725495, y: 0.97727823}
+  cloudFlatDetailAnim: {x: -0.48663187, y: -0.80009073}
+  cirrusAnim: {x: -0.029516095, y: 0.48718402}
 --- !u!114 &-1033463005042072443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   showSaveLoad: 0
   active: 1
   Settings:
-    moonMode: 1
+    moonMode: 0
     frontColorGradient0:
       serializedVersion: 2
       key0: {r: 0, g: 0, b: 0, a: 1}
@@ -776,10 +776,10 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     intensity: 0.05
-    sunScale: 7
-    moonScale: 7
+    sunScale: 10
+    moonScale: 10
     starsTwinklingSpeed: 0.1
-    moonPhase: 0.01
+    moonPhase: -0.6301575
     skyExposureHDRP:
       serializedVersion: 2
       m_Curve:
@@ -823,7 +823,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   preset: {fileID: 11400000, guid: 44f43418b8d8b8142863e38d1e49e174, type: 2}
-  showSkyControls: 1
+  showSkyControls: 0
   showSkySunControls: 0
   showSkyMoonControls: 0
   showSkyStarsControls: 0
@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b18a0693e95fd064e9d0a3b96e538236, type: 3}
   m_Name: Lighting Module
   m_EditorClassIdentifier: 
-  showModuleInspector: 0
+  showModuleInspector: 1
   showSaveLoad: 0
   active: 1
   Settings:
@@ -1070,22 +1070,22 @@ MonoBehaviour:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.5815558
-        value: 1.4591806
-        inSlope: 0.20075521
-        outSlope: 0.20075521
+        time: 0.560836
+        value: 0.34150216
+        inSlope: 1.471956
+        outSlope: 1.471956
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
+        inWeight: 0.4530339
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.994065
-        value: 1.499665
-        inSlope: 0
-        outSlope: 0
+        time: 0.7910926
+        value: 0.50932
+        inSlope: -0.044950012
+        outSlope: -0.044950012
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
+        inWeight: 0.70898855
         outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -1112,22 +1112,22 @@ MonoBehaviour:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.58564395
-        value: 0.45655647
-        inSlope: 0.20075521
-        outSlope: 0.20075521
+        time: 0.74160546
+        value: 0.0065582953
+        inSlope: 0.06157511
+        outSlope: 0.06157511
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
+        inWeight: 0.323537
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.99815315
-        value: 0.4970409
-        inSlope: 0
-        outSlope: 0
+        time: 0.8258381
+        value: 0.013311818
+        inSlope: 0.069034
+        outSlope: 0.069034
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
+        inWeight: 1
         outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -1165,18 +1165,18 @@ MonoBehaviour:
       serializedVersion: 2
       key0: {r: 0, g: 0, b: 0, a: 1}
       key1: {r: 0.009433985, g: 0.009433985, b: 0.009433985, a: 1}
-      key2: {r: 0.46471164, g: 0.5037812, b: 0.5566038, a: 0}
-      key3: {r: 0.8502581, g: 0.87486047, b: 0.9339623, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0}
+      key4: {r: 0.8502581, g: 0.87486047, b: 0.9339623, a: 0}
+      key5: {r: 0.8502581, g: 0.87486047, b: 0.9339623, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
       ctime1: 29491
       ctime2: 33539
       ctime3: 65535
-      ctime4: 0
-      ctime5: 0
+      ctime4: 65535
+      ctime5: 65535
       ctime6: 0
       ctime7: 0
       atime0: 0
@@ -1620,7 +1620,7 @@ MonoBehaviour:
     ambientSkyboxUpdateIntervall: 9.47
   preset: {fileID: 11400000, guid: 81d8b109102443243bcb0894975c0718, type: 2}
   showDirectLightingControls: 1
-  showAmbientLightingControls: 1
+  showAmbientLightingControls: 0
   showReflectionControls: 0
 --- !u!114 &1310742743334959994
 MonoBehaviour:
@@ -1780,7 +1780,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    temperature: -0.8516941
+    temperature: -4.64082
     temperatureWeatherMod: -10
     temperatureCustomMod: 0
     temperatureChangingSpeed: 0.1
@@ -1814,7 +1814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cae96c4b3ef46947a21c9615a74e6e4, type: 3}
   m_Name: Volumetric Cloud Module
   m_EditorClassIdentifier: 
-  showModuleInspector: 0
+  showModuleInspector: 1
   showSaveLoad: 0
   active: 1
   settingsLayer1:
@@ -1998,7 +1998,7 @@ MonoBehaviour:
   showDensityControls: 0
   showTextureControls: 0
   showWindControls: 1
-  cloudAnimLayer1: {x: -0.0018728861, y: 0.45535323, z: 0.8574933}
+  cloudAnimLayer1: {x: -0.08206298, y: 0.53554916, z: -0.80096465}
   cloudAnimLayer2: {x: 0.4995961, y: -0.7353438, z: 0.82806736}
   cloudAnimNonScaledLayer1: {x: 0.99872607, y: -0.9660904, z: -13.657647}
   cloudAnimNonScaledLayer2: {x: -0.71681553, y: 0.68417805, z: -14.015859}
@@ -2036,8 +2036,8 @@ MonoBehaviour:
     defaultSkyReflectionTex: {fileID: 0}
   preset: {fileID: 11400000, guid: da668770e38694d49af97ecfd05fd7eb, type: 2}
   showReflectionControls: 1
-  lastReflectionUpdate: 15.025
-  lastReflectionUpdatePos: {x: 0, y: 8.59, z: -10}
+  lastReflectionUpdate: 22.025
+  lastReflectionUpdatePos: {x: 60.2, y: 3.7, z: -10}
 --- !u!114 &4011421771873438716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2123,21 +2123,21 @@ MonoBehaviour:
     simulate: 1
     secSerial: 0
     minSerial: 0
-    hourSerial: 15
+    hourSerial: 22
     daySerial: 26
     monthSerial: 8
     yearSerial: 2023
-    timeOfDay: 15
+    timeOfDay: 22
     latitude: 0
     longitude: 0
     utcOffset: 0
-    cycleLengthInMinutes: 0.5
+    cycleLengthInMinutes: 5
     dayLengthModifier: 1
     nightLengthModifier: 1
   preset: {fileID: 11400000, guid: 82acdd278499d74498ad37dd931734d1, type: 2}
   showTimeControls: 1
   showLocationControls: 0
-  LST: 199.61096
+  LST: 304.89807
 --- !u!114 &5286980405202375680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2243,6 +2243,30 @@ MonoBehaviour:
   showFogControls: 1
   showVolumetricsControls: 0
   fogLights:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
