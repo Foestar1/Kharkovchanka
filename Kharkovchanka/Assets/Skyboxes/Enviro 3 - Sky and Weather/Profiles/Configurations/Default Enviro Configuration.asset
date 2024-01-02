@@ -19,7 +19,7 @@ MonoBehaviour:
     useCirrusClouds: 1
     cirrusCloudsTex: {fileID: 2800000, guid: 75c66597a85001644b2de40147b8d196, type: 3}
     cirrusCloudsAlpha: 0.5
-    cirrusCloudsColorPower: 1
+    cirrusCloudsColorPower: 2
     cirrusCloudsCoverage: 0.5
     cirrusCloudsColor:
       serializedVersion: 2
@@ -127,9 +127,9 @@ MonoBehaviour:
   preset: {fileID: 11400000, guid: 0fcdd472bd6a8ec429fc1e9bc978c4fa, type: 2}
   showCirrusCloudsControls: 0
   show2DCloudsControls: 0
-  cloudFlatBaseAnim: {x: -0.058725495, y: 0.97727823}
-  cloudFlatDetailAnim: {x: -0.48663187, y: -0.80009073}
-  cirrusAnim: {x: -0.029516095, y: 0.48718402}
+  cloudFlatBaseAnim: {x: 0.060783852, y: -0.22748932}
+  cloudFlatDetailAnim: {x: 0.11161654, y: -0.84205806}
+  cirrusAnim: {x: 0.030964281, y: 0.885268}
 --- !u!114 &-1033463005042072443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,7 +779,7 @@ MonoBehaviour:
     sunScale: 10
     moonScale: 10
     starsTwinklingSpeed: 0.1
-    moonPhase: -0.6301575
+    moonPhase: -0.7091061
     skyExposureHDRP:
       serializedVersion: 2
       m_Curve:
@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b18a0693e95fd064e9d0a3b96e538236, type: 3}
   m_Name: Lighting Module
   m_EditorClassIdentifier: 
-  showModuleInspector: 1
+  showModuleInspector: 0
   showSaveLoad: 0
   active: 1
   Settings:
@@ -1638,8 +1638,8 @@ MonoBehaviour:
   showSaveLoad: 0
   active: 1
   Settings:
-    season: 2
-    changeSeason: 1
+    season: 3
+    changeSeason: 0
     springStart: 60
     springEnd: 92
     summerStart: 93
@@ -1780,26 +1780,26 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    temperature: -4.64082
+    temperature: -5.710984
     temperatureWeatherMod: -10
     temperatureCustomMod: 0
     temperatureChangingSpeed: 0.1
     wetness: 0
     wetnessTarget: 0
     snow: 0.99999994
-    snowTarget: 1
+    snowTarget: 0
     wetnessAccumulationSpeed: 1
     wetnessDrySpeed: 1
     snowAccumulationSpeed: 1
     snowMeltSpeed: 1
     snowMeltingTresholdTemperature: 1
     windDirectionX: 1
-    windDirectionY: -1
+    windDirectionY: 1
     windSpeed: 1
     windTurbulence: 1
   preset: {fileID: 11400000, guid: c2a8d80258fd83a409a05aa912abca80, type: 2}
-  showSeasonControls: 0
-  showTemperatureControls: 0
+  showSeasonControls: 1
+  showTemperatureControls: 1
   showWeatherStateControls: 1
   showWindControls: 0
 --- !u!114 &3171557369469055653
@@ -1814,7 +1814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cae96c4b3ef46947a21c9615a74e6e4, type: 3}
   m_Name: Volumetric Cloud Module
   m_EditorClassIdentifier: 
-  showModuleInspector: 1
+  showModuleInspector: 0
   showSaveLoad: 0
   active: 1
   settingsLayer1:
@@ -1998,7 +1998,7 @@ MonoBehaviour:
   showDensityControls: 0
   showTextureControls: 0
   showWindControls: 1
-  cloudAnimLayer1: {x: -0.08206298, y: 0.53554916, z: -0.80096465}
+  cloudAnimLayer1: {x: -0.021077223, y: 0.93363386, z: 0.95523375}
   cloudAnimLayer2: {x: 0.4995961, y: -0.7353438, z: 0.82806736}
   cloudAnimNonScaledLayer1: {x: 0.99872607, y: -0.9660904, z: -13.657647}
   cloudAnimNonScaledLayer2: {x: -0.71681553, y: 0.68417805, z: -14.015859}
@@ -2036,7 +2036,7 @@ MonoBehaviour:
     defaultSkyReflectionTex: {fileID: 0}
   preset: {fileID: 11400000, guid: da668770e38694d49af97ecfd05fd7eb, type: 2}
   showReflectionControls: 1
-  lastReflectionUpdate: 22.025
+  lastReflectionUpdate: 9.025
   lastReflectionUpdatePos: {x: 60.2, y: 3.7, z: -10}
 --- !u!114 &4011421771873438716
 MonoBehaviour:
@@ -2090,7 +2090,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     auroraColor: {r: 0.1, g: 0.5, b: 0.7, a: 1}
-    auroraBrightness: 75
+    auroraBrightness: 50
     auroraContrast: 10
     auroraHeight: 20000
     auroraScale: 0.01
@@ -2103,7 +2103,7 @@ MonoBehaviour:
     aurora_layer_2: {fileID: 2800000, guid: 25bf6a8e18b4471499e961d75d1777c2, type: 3}
     aurora_colorshift: {fileID: 2800000, guid: f99b7b1866c1ab3489d848a4ef3dd81b, type: 3}
   preset: {fileID: 11400000, guid: 278933d28004c6b40ace276968b45b9e, type: 2}
-  showAuroraControls: 0
+  showAuroraControls: 1
 --- !u!114 &4205938958647054117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2116,18 +2116,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0081d4f9e5d6e0a4d9fe8e7a8d7256b6, type: 3}
   m_Name: Time Module
   m_EditorClassIdentifier: 
-  showModuleInspector: 1
+  showModuleInspector: 0
   showSaveLoad: 0
   active: 1
   Settings:
     simulate: 1
     secSerial: 0
     minSerial: 0
-    hourSerial: 22
+    hourSerial: 9
     daySerial: 26
     monthSerial: 8
     yearSerial: 2023
-    timeOfDay: 22
+    timeOfDay: 9
     latitude: 0
     longitude: 0
     utcOffset: 0
@@ -2137,7 +2137,7 @@ MonoBehaviour:
   preset: {fileID: 11400000, guid: 82acdd278499d74498ad37dd931734d1, type: 2}
   showTimeControls: 1
   showLocationControls: 0
-  LST: 304.89807
+  LST: 109.36389
 --- !u!114 &5286980405202375680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2401,6 +2401,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   fogMat: {fileID: 0}
   volumetricsMat: {fileID: 0}
   blurMat: {fileID: 0}
@@ -2427,7 +2429,7 @@ MonoBehaviour:
     randomSpawnRange: 5000
     randomTargetRange: 5000
   preset: {fileID: 11400000, guid: e9a0f93373ad7014fbe96d77c75cbe4e, type: 2}
-  showLightningControls: 0
+  showLightningControls: 1
 --- !u!114 &8688181491880412394
 MonoBehaviour:
   m_ObjectHideFlags: 0

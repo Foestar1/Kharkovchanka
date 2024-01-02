@@ -15,7 +15,7 @@ MonoBehaviour:
   showEditor: 0
   showEffectControls: 0
   showCloudControls: 0
-  showFlatCloudControls: 0
+  showFlatCloudControls: 1
   showFogControls: 0
   showLightingControls: 0
   showAuroraControls: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
   flatCloudsOverride:
     cirrusCloudsAlpha: 0.5
     cirrusCloudsCoverage: 0.5
-    cirrusCloudsColorPower: 1
+    cirrusCloudsColorPower: 2
     flatCloudsCoverage: 1
     flatCloudsDensity: 1
     flatCloudsLightIntensity: 1
@@ -90,7 +90,7 @@ MonoBehaviour:
     auroraIntensity: 1
   effectsOverride:
     effectsOverride:
-    - showEditor: 0
+    - showEditor: 1
       name: Snow
       emission: 1
   audioOverride:
@@ -102,8 +102,8 @@ MonoBehaviour:
   environmentOverride:
     temperatureWeatherMod: -10
     wetnessTarget: 0
-    snowTarget: 1
+    snowTarget: 0
     windDirectionX: 1
-    windDirectionY: -1
+    windDirectionY: 1
     windSpeed: 1
     windTurbulence: 1
