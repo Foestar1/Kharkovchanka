@@ -16,7 +16,7 @@ MonoBehaviour:
   showSaveLoad: 0
   active: 1
   Settings:
-    moonMode: 1
+    moonMode: 0
     frontColorGradient0:
       serializedVersion: 2
       key0: {r: 0, g: 0, b: 0, a: 1}
@@ -645,11 +645,11 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    intensity: 0.5
-    sunScale: 7
-    moonScale: 7
+    intensity: 0.05
+    sunScale: 10
+    moonScale: 10
     starsTwinklingSpeed: 0.1
-    moonPhase: 0.01
+    moonPhase: -0.7151857
     skyExposureHDRP:
       serializedVersion: 2
       m_Curve:

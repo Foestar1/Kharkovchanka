@@ -22,11 +22,11 @@ MonoBehaviour:
     initialized: 0
     lodIndex: 1
   - fullName: NWH.VehiclePhysics2.Effects.ExhaustFlash
-    isEnabled: 1
+    isEnabled: 0
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.ExhaustSmoke
-    isEnabled: 1
+    isEnabled: 0
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.LightsMananger
@@ -34,7 +34,7 @@ MonoBehaviour:
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.SkidmarkManager
-    isEnabled: 1
+    isEnabled: 0
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.SurfaceParticleManager

@@ -16,18 +16,18 @@ MonoBehaviour:
   showSaveLoad: 0
   active: 1
   Settings:
-    simulate: 0
+    simulate: 1
     secSerial: 0
     minSerial: 0
-    hourSerial: 18
+    hourSerial: 8
     daySerial: 26
     monthSerial: 8
     yearSerial: 2023
-    timeOfDay: 18
+    timeOfDay: 8
     latitude: 0
     longitude: 0
     utcOffset: 0
-    cycleLengthInMinutes: 0.5
+    cycleLengthInMinutes: 5
     dayLengthModifier: 1
     nightLengthModifier: 1
   preset: {fileID: 0}

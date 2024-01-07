@@ -20,7 +20,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 3e61e22e1ac8ba045a3b0e53c22b3629, type: 2}
     - {fileID: 11400000, guid: 9ba6458aa7df92d4494a7a3d40830a15, type: 2}
     - {fileID: 11400000, guid: 96eebec6fa78a3c48ba2bc98ac5ab57f, type: 2}
-    cloudsTransitionSpeed: 1
+    cloudsTransitionSpeed: 10
     fogTransitionSpeed: 1
     lightingTransitionSpeed: 1
     effectsTransitionSpeed: 1

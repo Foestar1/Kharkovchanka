@@ -52,7 +52,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     auroraColor: {r: 0.1, g: 0.5, b: 0.7, a: 1}
-    auroraBrightness: 75
+    auroraBrightness: 50
     auroraContrast: 10
     auroraHeight: 20000
     auroraScale: 0.01

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: High
   m_EditorClassIdentifier: 
   showEditor: 0
-  showVolumeClouds: 0
-  showFog: 0
+  showVolumeClouds: 1
+  showFog: 1
   showFlatClouds: 0
-  showEffects: 0
-  showAurora: 0
+  showEffects: 1
+  showAurora: 1
   volumetricCloudsOverride:
     volumetricClouds: 1
     dualLayer: 0
@@ -36,5 +36,5 @@ MonoBehaviour:
     cirrusClouds: 1
     flatClouds: 0
   auroraOverride:
-    aurora: 1
+    aurora: 0
     steps: 32
