@@ -26,7 +26,7 @@ MonoBehaviour:
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.ExhaustSmoke
-    isEnabled: 1
+    isEnabled: 0
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.LightsMananger
@@ -178,7 +178,7 @@ MonoBehaviour:
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.ExhaustPopComponent
-    isEnabled: 0
+    isEnabled: 1
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.GearChangeComponent
@@ -186,7 +186,7 @@ MonoBehaviour:
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.HornComponent
-    isEnabled: 0
+    isEnabled: 1
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.ReverseBeepComponent
@@ -202,11 +202,11 @@ MonoBehaviour:
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.TurboFlutterComponent
-    isEnabled: 0
+    isEnabled: 1
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.TurboWhistleComponent
-    isEnabled: 0
+    isEnabled: 1
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.WheelSkidComponent

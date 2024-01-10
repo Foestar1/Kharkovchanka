@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6a39bbda4e95d74da85266fbed40e9b, type: 3}
   m_Name: DefaultGroundDetectionPreset
   m_EditorClassIdentifier: 
-  particlePrefab: {fileID: 0}
-  chunkPrefab: {fileID: 1980262531956446, guid: 9a09c714107a4ce4db334cd04bf6d9df, type: 3}
-  fallbackSurfacePreset: {fileID: 11400000, guid: 87b2e38ba6aaf754fa133b403633c9f5, type: 2}
+  particlePrefab: {fileID: 1980262531956446, guid: d43fdf76272def940b878508ff66406c,
+    type: 3}
+  chunkPrefab: {fileID: 1980262531956446, guid: 9a09c714107a4ce4db334cd04bf6d9df,
+    type: 3}
+  fallbackSurfacePreset: {fileID: 11400000, guid: 87b2e38ba6aaf754fa133b403633c9f5,
+    type: 2}
   surfaceMaps:
   - name: Asphalt
     surfacePreset: {fileID: 11400000, guid: fed571730f5dcdd4eba1dad9d23e9507, type: 2}
