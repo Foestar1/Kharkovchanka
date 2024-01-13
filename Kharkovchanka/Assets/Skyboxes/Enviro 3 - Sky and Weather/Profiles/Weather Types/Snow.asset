@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbac6e678443724c9bd2baf5d564c1d, type: 3}
   m_Name: Snow
   m_EditorClassIdentifier: 
-  showEditor: 0
-  showEffectControls: 0
+  showEditor: 1
+  showEffectControls: 1
   showCloudControls: 0
   showFlatCloudControls: 1
   showFogControls: 0
-  showLightingControls: 0
+  showLightingControls: 1
   showAuroraControls: 0
-  showEnvironmentControls: 0
+  showEnvironmentControls: 1
   showAudioControls: 0
   showAmbientAudioControls: 0
   showWeatherAudioControls: 0
@@ -104,6 +104,6 @@ MonoBehaviour:
     wetnessTarget: 0
     snowTarget: 0
     windDirectionX: 1
-    windDirectionY: 1
+    windDirectionY: -1
     windSpeed: 1
     windTurbulence: 1

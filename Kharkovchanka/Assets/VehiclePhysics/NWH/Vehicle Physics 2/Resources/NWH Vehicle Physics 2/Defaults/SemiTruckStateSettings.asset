@@ -22,7 +22,7 @@ MonoBehaviour:
     initialized: 0
     lodIndex: 1
   - fullName: NWH.VehiclePhysics2.Effects.ExhaustFlash
-    isEnabled: 1
+    isEnabled: 0
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.ExhaustSmoke
@@ -34,7 +34,7 @@ MonoBehaviour:
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.SkidmarkManager
-    isEnabled: 1
+    isEnabled: 0
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Effects.SurfaceParticleManager
@@ -178,7 +178,7 @@ MonoBehaviour:
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.ExhaustPopComponent
-    isEnabled: 1
+    isEnabled: 0
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.GearChangeComponent
@@ -190,7 +190,7 @@ MonoBehaviour:
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.ReverseBeepComponent
-    isEnabled: 1
+    isEnabled: 0
     initialized: 0
     lodIndex: -1
   - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.SuspensionBumpComponent
