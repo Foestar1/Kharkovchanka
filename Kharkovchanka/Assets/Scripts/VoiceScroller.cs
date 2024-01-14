@@ -4,6 +4,8 @@ public class VoiceScroller : MonoBehaviour
 {
     [SerializeField]
     private float scrollSpeed;
+    [SerializeField]
+    private AudioClip[] differentLines;
 
     private void Update()
     {
