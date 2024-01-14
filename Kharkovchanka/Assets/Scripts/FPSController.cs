@@ -152,8 +152,8 @@ public class FPSController : MonoBehaviour
             {
                 if (groundCamera == false)
                 {
-                    playerCamera.transform.position = playerCameraLocation;
-                    playerCamera.transform.rotation = playerCameraRotation;
+                    playerCamera.transform.localPosition = new Vector3(0, 2, 0);
+                    playerCamera.transform.localEulerAngles = new Vector3(0, 2, 0);
                     groundCamera = true;
                 }
             }
@@ -172,8 +172,6 @@ public class FPSController : MonoBehaviour
                     if (groundCamera == true)
                     {
                         groundCamera = false;
-                        playerCameraLocation = playerCamera.transform.position;
-                        playerCameraRotation = playerCamera.transform.rotation;
                     }
                 }
             }
